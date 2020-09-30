@@ -2,14 +2,12 @@ type: SolarGenerator
 name: Graphenite Solar Collector Large
 description: Solar panel with graphenite elements,more powerful than Large Solar Panel.
 research: solar-panel-large
-powerProduction: 1.7
+powerProduction: 1.6
 size: 3
 health: 210
 category: power
 requirements: [
   metaglass/100
-  silicon/145
-  lead/100
-  plastanium/50
-  graphenite/100
+  silicon/40
+  graphenite/70
 ]

@@ -1,0 +1,14 @@
+name: Exotic Alloy Wall 
+description: Wall from Exotic Alloy,can creates lightings when shot.
+type: SurgeWall
+health: 1680
+size: 1
+lightningChance: 0.09
+lightningDamage: 25
+lightningLength: 16
+requirements: [
+  exotic-alloy/16
+  graphenite/4
+]
+category: defense
+research: surge-wall

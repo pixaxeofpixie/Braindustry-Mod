@@ -1,0 +1,30 @@
+type: GenericSmelter
+name: Exotic Alloy Smelter
+description: Craft Exotic Alloy from Thorium,Titanium and Plastanium.
+health: 140
+liquidCapacity: 10
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 90
+updateEffect: plasticburn
+consumes: {
+  power: 1.2
+    items:{
+     items:[
+      plastanium/1
+      thorium/1
+      titanium/1
+      ]
+   }
+}
+requirements: [
+  plastanium/40
+  titanium/100
+  graphite/80
+  graphenite/280
+]
+category: crafting
+research: graphenite-forge
+outputItem: exotic-alloy/2

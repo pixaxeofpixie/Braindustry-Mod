@@ -1,0 +1,18 @@
+type: SolarGenerator
+name: Phase Alloy Solar Panel
+description: An improved version of the Large Solar Panel. Takes up a lot of space.
+health: 960
+size: 5
+hasPower: true
+health: 960
+powerProduction: 8.4
+requirements: [
+  thorium/280
+  silicon/400
+  titanium/90
+  graphenite/80
+  phase-alloy/115
+]
+buildCostMultiplier: 1.1
+category: power
+research: graphenite-solar-collector-large

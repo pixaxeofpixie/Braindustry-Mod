@@ -5,7 +5,7 @@ health: 3100
 size: 2
 requirements: [
   odinum/55
-  throium/15
+  thorium/15
 ]
 category: defense
 research: odinum-wall

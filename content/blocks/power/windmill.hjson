@@ -1,0 +1,16 @@
+//type: SolarGenerator
+name: Wind Generator
+description: Simple wind generator.
+health: 410
+size: 3
+hasPower: true
+powerProduction: 1.1
+requirements: [
+  titanium/115
+  silicon/105
+  metaglass/75
+  graphenite/125
+]
+buildCostMultiplier: 1.4
+category: power
+research: solar-panel-large

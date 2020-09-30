@@ -11,11 +11,11 @@ craftTime: 100
 updateEffect: plasticburn
 consumes: {
   power: 2
-  liquid: oil/1
+  liquid: oil/0.1
   items:{
     items:[
     plastanium/1
-    thorium/1
+    thorium/4
     ]
   }
 }
@@ -24,9 +24,9 @@ requirements: [
   plastanium/200
   thorium/300
   silicon/470
-  metaglass/130
+  exotic-alloy/130
   graphenite/380
 ]
 category: crafting
-research: phase-alloy-smelter
-outputItem: plastic/1
+research: exotic-alloy-smelter
+outputItem: plastic/2

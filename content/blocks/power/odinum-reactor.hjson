@@ -3,15 +3,15 @@ name: "Odinum Reactor"
 description: "Atomic fission and collision reactor.Consumes Odinum and Liquid Graphenite."
 size: 4
 hasPower: true
-hasLiquds: true
+hasLiquids: true
 hasItems: true
 itemCapacity: 20
 liquidCapacity: 20
 itemDuration: 90
-powerProduction: 45
+powerProduction: 48
 plasmas: 3
 consumes: {
- power: 11
+ power: 9
  liquid: liquid-graphenite/0.2
   items: {
    items: [
@@ -25,7 +25,6 @@ requirements: [
   silicon/400
   graphenite/200
   plastanium/200
-  thorium/200
 ]
 category: power
 research: thorium-reactor

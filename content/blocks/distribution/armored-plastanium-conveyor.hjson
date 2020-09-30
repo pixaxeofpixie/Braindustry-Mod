@@ -1,13 +1,16 @@
 type: armoredConveyor
 name: Armored Plastanium Conveyor
-description: Wonderful plastanium conveyor .
+description: Wonderful and strong Plastanium Conveyor.
+health: 240
+hasItems: true
+itemCapacity: 6
 requirements: [
-  exometal/1
-  silicon/1
+  silicon/2
+  graphenite/1
   metaglass/1
-  plastanium/1
+  plastanium/2
 ]
 category: distribution
-speed: 0.2
+speed: 0.3
 research: armored-conveyor
 

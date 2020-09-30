@@ -3,7 +3,7 @@ name: Phase Alloy Smelter
 description: Mixes Plastanium,Surge Alloy and Phase Fabric and then produces universal Phase Alloy.
 health: 310
 liquidCapacity: 0
-size: 4
+size: 3
 hasPower: true
 hasLiquids: false
 hasItems: true
@@ -13,7 +13,7 @@ consumes: {
   power: 2
     items:{
      items:[
-      plastanium/1
+      plastanium/2
       surge-alloy/1
       phase-fabric/1
       ]
@@ -23,11 +23,11 @@ requirements: [
   phase-fabric/100
   plastanium/100
   thorium/400
-  silicon/270
+  exotic-alloy/270
   graphenite/380
 ]
 category: crafting
-research: ultimate-cultivator
+research: plastic-forge
 idleSound: respawning
 idleSoundVolume: 0.5
-outputItem: phase-alloy/1
+outputItem: phase-alloy/2

@@ -1,0 +1,51 @@
+brange: 500
+range: 500
+name: Hoplite
+description: 
+requirements: [
+graphenite/200
+surge-alloy/300
+plastanium/175
+thorium/350
+plastic/150
+]
+ammoTypes: {
+  surge-alloy: {
+    type: PointBulletType
+    shootEffect: instShoot
+    hitEffect: instHit
+    smokeEffect: smokeCloud
+    trailEffect: instTrail
+    despawnEffect: instBomb
+    trailSpacing: 20
+    damage: 3000
+    tileDamageMultiplier: 0.6
+    speed: 500
+    hitShake: 6
+    ammoMultiplier: 1
+  }
+}
+rotateSpeed: 2.5
+reloadTime: 230
+restitution: 0.2
+ammoUseEffect: shellEjectBig
+recoilAmount: 0.5
+cooldown: 0.009
+shootShake: 4
+shots: 1
+size: 4
+shootCone: 2
+shootSound: shootBig
+coolantMultiplier: 0.09
+health: 2400
+consumes: {
+  power: 14
+  liquid: {
+    liquid: thorium-refrigenrant
+    amount: 0.2
+    optional: true
+    booster: true
+  }
+}
+category: turret
+research: brain

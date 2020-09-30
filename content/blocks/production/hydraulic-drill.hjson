@@ -13,14 +13,14 @@ consumes: {
 liquidBoostIntensity: 1.0
 hasLiquids: true
 rotateSpeed: 2.0
-drillTime: 250
+drillTime: 245
 requirements: [
-  plastanium/75
+  plastanium/15
   silicon/40
   graphite/45
-  thorium/75
+  odinum/75
 ]
 category: production
 research: laser-drill
 idleSound: drill
-idleSoundVolume: 0.008
+idleSoundVolume: 0.01

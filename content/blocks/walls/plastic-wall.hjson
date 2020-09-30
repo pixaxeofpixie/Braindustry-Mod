@@ -4,7 +4,7 @@ type: DeflectorWall
 health: 1680
 size: 1
 hitTime: 12
-maxDamgeDeflect: 12
+maxDamageDeflect: 12
 requirements: [
   plastic/6
   plastanium/2

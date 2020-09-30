@@ -1,0 +1,7 @@
+type: material
+name: Exotic alloy
+description: Very light and exotic alloy,produces in Exotic alloy smelter.
+cost: 3
+flammability: 0.1
+radioactivity: 0.01
+color: e2f723

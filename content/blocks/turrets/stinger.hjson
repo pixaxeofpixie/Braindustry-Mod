@@ -1,0 +1,26 @@
+name: Stinger
+description: High tech rocket turret.Every bullet has unique abilities.
+type: itemTurret
+requirements: [
+graphenite/100
+silicon/100
+phase-alloy/70
+plastanium/20
+] 
+ammo: {
+blast-compound: missileExplosive
+pyratite: missileIncendiary
+surge-alloy: missileSurge
+plastanium: missileSwarm
+graphenite: missileJavelin
+} 
+reload: 30
+shots: 6
+burstSpacing: 6
+inaccuracy: 2
+range: 200
+size: 4
+health: 1340
+research: swarmer
+shootSound: missile
+category: turret

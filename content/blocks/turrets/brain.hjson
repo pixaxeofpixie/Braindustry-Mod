@@ -1,0 +1,22 @@
+name: Brain
+description: High tech rapid laser turret.Consumes Phase Alloy to shoot like Meltdown.
+type: itemTurret
+requirements: [
+graphenite/90
+silicon/120
+surge-alloy/60
+odinum/30
+] 
+ammo: {
+	phase-alloy: meltdownLaser
+	plastanium: lancerLaser
+} 
+reload: 30
+shots: 3
+burstSpacing: 4
+inaccuracy: 1
+range: 220
+size: 2
+health: 1200
+research: cyclone
+category: turret

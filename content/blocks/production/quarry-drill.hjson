@@ -1,0 +1,29 @@
+name: Quarry Drill
+description: A gigantic drill with maximum power and efficience.
+type: Drill
+size: 5
+health: 260
+drillTime: 225
+tier: 5
+drawRim: true
+consumes: {
+power: 2
+	liquid: {
+		liquid: thorium-refrigerant
+		amount: 0.12
+		booster: false
+		optional: false
+	}
+}
+liquidBoostIntensity: 1
+hasLiquids: true
+liquidCapacity: 60
+rotateSpeed: 5
+requirements: [
+	plastic/150
+	graphenite/120
+	odinum/140
+	plastanium/100
+]
+research: blast-drill
+category: production

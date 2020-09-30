@@ -1,15 +1,14 @@
 name: Eclipse
 description: Outshine all your enemies with its powerful laser.Consumes thorium refrigerant or cryofluid like coolant and Graphenite like patrons.
-health: 2160
+health: 1980
 hasLiquids: true
 liquidCapacity: 30
 hasItems: true
-itemCapacity: 15
+itemCapacity: 20
 size: 3
-shootSound: laserbig
 ammoUseEffect: bigShockwave
 reload: 40
-requirments: [
+requirements: [
 plastic/100
 thorium/200
 titanium/200

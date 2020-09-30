@@ -1,7 +1,7 @@
-research: ultimate-cultivator
+research: exotic-alloy-smelter
 requirements:[
 phase-fabric/275
 graphenite/500
-plastanium/275
+exotic-alloy/100
 ]
 category: crafting

@@ -1,0 +1,29 @@
+type: SingleTypeGenerator
+name: Differential Magma Generator
+description: Consumes Magma and Pyratite to create many heat power.
+size: 3
+hasPower: true
+health: 130
+hasItems: true
+itemCapacity: 30
+hasLiquids: true
+liquidCapacity: 40
+itemDuration: 70
+powerProduction: 13.6
+consumes: {
+  liquid: magma/0.3
+  items: {
+  	items: [
+  		pyratite/1
+    ]
+  }
+}
+requirements: [
+  graphenite/140
+  chromium/190
+  plastanium/120
+  titanium/200
+  odinum/70
+]
+category: power
+research: magma-generator

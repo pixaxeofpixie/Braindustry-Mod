@@ -1,22 +1,27 @@
 type: BurnerGenerator
 name: Magma Generator
-description: Consumes Magma and Coal/Blast Compound/Pyratite/Spore Pods to produce power.
+description: Consumes Magma and Coal to produce a lot of power.
 size: 2
 hasPower: true
 hasItems: true
 itemCapacity: 10
 hasLiquids: true
-liquidCapacity: 10
-itemDuration: 90
-powerProduction: 10
+liquidCapacity: 15
+itemDuration: 80
+powerProduction: 6
 consumes: {
   liquid: magma/0.1
+  items: {
+  	items: [
+  		coal/1
+  	]
+  }
 }
 requirements: [
   graphenite/50
   silicon/80
   plastanium/120
-  thorium/60
+  chromium/160
 ]
 category: power
 research: differential-generator

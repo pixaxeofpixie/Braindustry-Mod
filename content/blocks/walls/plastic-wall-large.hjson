@@ -2,9 +2,9 @@ name: Plastic Wall Large
 description: This Large Plastic wall can deflect some bullets.
 type: DeflectorWall
 health: 1680
-size: 1
+size: 2
 hitTime: 12
-maxDamgeDeflect: 12
+maxDamageDeflect: 12
 requirements: [
   plastic/38
   plastanium/12

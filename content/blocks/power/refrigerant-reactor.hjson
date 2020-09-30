@@ -8,16 +8,13 @@ hasItems: true
 itemCapacity: 10
 liquidCapacity: 10
 itemDuration: 110
-powerProduction: 16
-lightColor:     
-coolColor:    
-hotColor:     
-heating: 0.02
+powerProduction: 24
+heating: 0.04
 smokeThreshold: 0.48
-explosionRadius: 40   
-explosionDamage: 1250  
+explosionRadius: 50 
+explosionDamage: 1550
 flashThreshold: 0.34 
-coolantPower: 0.7  
+coolantPower: 0.9 
 consumes: {
  power: 4
  liquid: thorium-refrigerant/0.1
