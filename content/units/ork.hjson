@@ -1,0 +1,19 @@
+type: FlyingUnit
+name: Orc Bomber
+description: Heavy and fast bomber,craft with lightweight Graphenite..
+health: 320
+speed: 0.3
+mass: 2
+flying: true
+drag: 0.1
+maxVelocity: 1.4
+engineOffset: 7
+engineSize: 5
+weapon: {
+	name: ork-weapon
+	length: 1
+	reload: 0.3
+	alternate: true
+	bullet: bombExplosive
+	shootSound: boom
+}

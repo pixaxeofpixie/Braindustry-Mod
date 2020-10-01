@@ -1,0 +1,30 @@
+type: unitFactory
+name: Ork Bomber Factory
+description: Produces heavy bombers.
+produceTime: 1100
+health: 420
+size: 3
+launchVelocity: 0
+maxSpawn: 4
+unitType: ork
+hasPower: true
+hasItems: true
+itemCapacity: 40
+solid: false
+requirements: [
+ graphenite/70
+ titanium/90
+ silicon/120
+]
+consumes: {
+	power: 1.6
+		items: {
+			items: [
+			graphenite/10
+			titanium/5
+			silicon/15
+		]
+	}
+}
+research: ghoul-factory
+category: units

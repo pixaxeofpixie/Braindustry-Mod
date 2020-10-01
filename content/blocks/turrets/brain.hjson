@@ -18,5 +18,5 @@ inaccuracy: 1
 range: 220
 size: 2
 health: 1200
-research: cyclone
+research: meltdown
 category: turret

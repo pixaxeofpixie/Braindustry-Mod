@@ -1,0 +1,34 @@
+type: Mech
+name: Ogre
+description: Heavy tank mech with rocket guns.
+flying: false 
+speed: 0.25
+maxSpeed: 1
+boostSpeed: 0.35
+drag: 0.5
+mass: 2
+shake: 0
+health: 460
+hisize: 8
+mineSpeed: 1.8
+drillPower: 3
+buildPower: 1.8
+itemCapacity: 100
+compoundSpeed: 1
+compoundSpeedBoost: 2
+drawCell: true
+drawItems: true
+drawLight: true
+weaponOffsetY: 1
+engineColor: b2f5c9
+engineSize: 5
+engineOffset: 6.75
+weaponOffsetX: 9.85
+weapon: {
+	name: ogre-rocket-launcher
+	bullet: missileSwarm
+	reload: 30
+	ejectEffect: shootPyraFlame
+	shootSound: missile
+	shots: 2
+}

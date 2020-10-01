@@ -1,0 +1,30 @@
+type: unitFactory
+name: Ork Bomber Factory
+description: Produces lightweigth and fast Kirin's.
+produceTime: 1000
+health: 370
+size: 2
+launchVelocity: 0.3
+maxSpawn: 6
+unitType: kirin
+hasPower: true
+hasItems: true
+itemCapacity: 60
+solid: false
+requirements: [
+ graphenite/70
+ titanium/30
+ plastanium/10
+ silicon/60
+]
+consumes: {
+	power: 1.2
+		items: {
+			items: [
+			graphenite/10
+			silicon/8
+		]
+	}
+}
+research: wraith-factory
+category: units

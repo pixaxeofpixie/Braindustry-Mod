@@ -1,0 +1,21 @@
+name: Ogre Mech Pad
+description: Transform your unit into heavy tank mech with rocket guns.
+type: MechPad
+health: 260
+size: 5
+requirements: [
+	graphenite/130
+	phase-alloy/100
+	thorium/80
+	metaglass/50
+	silicon/90
+]
+consumes: {
+	power: 2.6
+}
+mech: ogre
+buildTime: 120
+hasPower: true
+hasItems: true
+category: upgrade
+research: omega-mech-pad
