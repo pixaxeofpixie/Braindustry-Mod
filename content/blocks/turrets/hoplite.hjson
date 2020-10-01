@@ -39,7 +39,7 @@ health: 2400
 consumes: {
   power: 14
   liquid: {
-    liquid: thorium-refrigenrant
+    liquid: thorium-refrigerant
     amount: 0.2
     optional: true
     booster: true
