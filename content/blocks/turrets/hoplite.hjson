@@ -1,13 +1,11 @@
-brange: 500
 range: 500
 name: Hoplite
-description: 
 requirements: [
-graphenite/200
-surge-alloy/300
-plastanium/175
-thorium/350
-plastic/150
+ graphenite/200
+ surge-alloy/300
+ plastanium/175
+ thorium/350
+ plastic/150
 ]
 ammoTypes: {
   surge-alloy: {
